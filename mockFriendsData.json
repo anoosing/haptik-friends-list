@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Rahul Gupta",
+        "isFavourite": false
+    },
+    {
+        "name": "Shivangi Sharma",
+        "isFavourite": false
+    },
+    {
+        "name": "Akash Singh",
+        "isFavourite": false
+    },
+    {
+        "name": "Anoop Singh",
+        "isFavourite": false
+    },
+    {
+        "name": "Hitangi Salva",
+        "isFavourite": false
+    },
+    {
+        "name": "Shaishav Shah",
+        "isFavourite": false
+    }
+]

@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/haptik-friends-list/static/css/main.948b9a7c.chunk.css",
+    "main.js": "/haptik-friends-list/static/js/main.6e0b4cb3.chunk.js",
+    "main.js.map": "/haptik-friends-list/static/js/main.6e0b4cb3.chunk.js.map",
+    "runtime-main.js": "/haptik-friends-list/static/js/runtime-main.aa770548.js",
+    "runtime-main.js.map": "/haptik-friends-list/static/js/runtime-main.aa770548.js.map",
+    "static/js/2.ea1aabc0.chunk.js": "/haptik-friends-list/static/js/2.ea1aabc0.chunk.js",
+    "static/js/2.ea1aabc0.chunk.js.map": "/haptik-friends-list/static/js/2.ea1aabc0.chunk.js.map",
+    "static/js/3.fa65c027.chunk.js": "/haptik-friends-list/static/js/3.fa65c027.chunk.js",
+    "static/js/3.fa65c027.chunk.js.map": "/haptik-friends-list/static/js/3.fa65c027.chunk.js.map",
+    "index.html": "/haptik-friends-list/index.html",
+    "static/css/main.948b9a7c.chunk.css.map": "/haptik-friends-list/static/css/main.948b9a7c.chunk.css.map",
+    "static/js/2.ea1aabc0.chunk.js.LICENSE.txt": "/haptik-friends-list/static/js/2.ea1aabc0.chunk.js.LICENSE.txt",
+    "static/media/fontawesome.min.css": "/haptik-friends-list/static/media/fontawesome-webfont.f691f37e.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.aa770548.js",
+    "static/js/2.ea1aabc0.chunk.js",
+    "static/css/main.948b9a7c.chunk.css",
+    "static/js/main.6e0b4cb3.chunk.js"
+  ]
+}
