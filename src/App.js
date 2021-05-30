@@ -12,7 +12,7 @@ export class App extends React.Component {
       searchFriendText: "",
       error: "",
       pageCount: 0,
-      currentPage: 1
+      currentPage: 0
     }
   }
   paginateData = (data, page = 1) => {
@@ -21,7 +21,7 @@ export class App extends React.Component {
     indexOfFirstName = indexOfLastName - 4,
     currentList = list.slice(indexOfFirstName, indexOfLastName),
     pageCount = Math.ceil((list.length) / 4);
-    this.setState({ pageCount });
+    this.setState({ pageCount, currentPage: 0 });
     return currentList;
   }
   getData = () => {
@@ -103,7 +103,7 @@ export class App extends React.Component {
     this.setState({ error: "", friendsList: this.paginateData(filteredFriends), searchFriendText: "" });
   }
   handlePageClick = data => {
-    this.setState({ friendsList: this.paginateData(this.state.friendsListDefault, data.selected + 1), currentPage: data.selected + 1 });
+    this.setState({ friendsList: this.paginateData(this.state.friendsListDefault, data.selected + 1), currentPage: data.selected });
   }
   render() {
     return (
@@ -155,6 +155,7 @@ export class App extends React.Component {
               breakLabel={'...'}
               breakClassName={'break-me'}
               pageCount={this.state.pageCount}
+              forcePage={this.state.currentPage}
               marginPagesDisplayed={2}
               pageRangeDisplayed={5}
               onPageChange={this.handlePageClick}
