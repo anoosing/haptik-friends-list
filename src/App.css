@@ -52,13 +52,14 @@ input:focus-visible {
 }
 .small-font {
   font-size: calc(10px + 1vmin);
+  color: darkgray;
 }
 .fa {
   font-size: calc(10px + 1vmin);
   color: #a4a4a4;
   cursor: pointer;
 }
-.fa-search {
+.fa-search, .fa-close {
   /* position: absolute;
   margin-top: 1vmin;
   margin-left: 19vw; */
@@ -93,7 +94,18 @@ input:focus-visible {
 .pagination > li {
   margin: 0vmin 1vmin;
   cursor: pointer;
+  color: darkgray;
+}
+.pagination a {
+  color: darkgray
+}
+.pagination > li.active a {
+  color: blue !important;
 }
 .label {
   width: 30%;
+}
+.error-msg {
+  color: red !important;
+  padding-left: 1vmin;
 }
