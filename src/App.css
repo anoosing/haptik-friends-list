@@ -1,38 +1,99 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.friends {
+  /* background-color: #282c34; */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  /* color: white; */
+  /* width: 20%;
+  margin: 25vmin; */
 }
 
-.App-link {
-  color: #61dafb;
+.friends-list-label{
+  background: #dddddd;
+  padding: 1vmin;
+  /* height: 5vmin; */
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.friends-wrapper {
+  /* width: 30%; */
+  /* padding: 1vmin; */
+  /* margin: 10vmin; */
+  border: 1px solid #dddddd;
+  padding: 0;
+}
+.add-friend-input {
+  width: 100%;
+  /* height: 6vmin; */
+  border: 0px;
+  /* border-bottom: 1px solid #a4a4a4; */
+  border-bottom: 2px solid lightgray;
+  padding: 1vmin;
+}
+input:focus-visible {
+  outline: none !important;
+}
+.friends-list {
+  /* height: 9vmin; */
+  /* border-bottom: 1px solid #a4a4a4; */
+  border-bottom: 2px solid lightgray;
+  padding: 1vmin;
+  display: flex;
+  flex-direction: row;
+}
+.search-friends {
+  float: right;
+  border: 0px;
+  height: 5vmin;
+  width: 50%;
+  padding: 1vmin;
+}
+.small-font {
+  font-size: calc(10px + 1vmin);
+}
+.fa {
+  font-size: calc(10px + 1vmin);
+  color: #a4a4a4;
+  cursor: pointer;
+}
+.fa-search {
+  /* position: absolute;
+  margin-top: 1vmin;
+  margin-left: 19vw; */
+  position: absolute;
+  right: 2vmin;
+  top: 1vmin;
+  z-index: 99;
+}
+.friend-list-name {
+  width: 70%;
+}
+.friends-list-icons {
+  width: 30%;
+  text-align: right;
+  /* float: right; */
+  /* position: absolute;
+  margin-left: 15vw; */
+}
+.fa-trash, .fa-star, .fa-star-o {
+  margin: 1vmin;
+  border: 1px solid;
+  border-radius: 1vmin;
+  padding: 1vmin;
+}
+.friends-list-paginator {
+  /* float: right; */
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+.pagination > li {
+  margin: 0vmin 1vmin;
+  cursor: pointer;
+}
+.label {
+  width: 30%;
 }
